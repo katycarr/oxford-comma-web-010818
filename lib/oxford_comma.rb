@@ -10,4 +10,5 @@ def oxford_comma(array)
     string = array.join(", ")
     string << ", and #{last}"
     string
+  end
 end
